@@ -1,0 +1,147 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body{
+    background-color: beige;
+}
+
+header{
+    background-color: #222222;
+    padding-top: 10px;  
+}
+
+.pizza-color{
+    color: #39B24A;
+}
+
+.i-color{
+    color: #FFFFFF;
+}
+
+.font-color{
+    color: #FC200C;
+}
+
+.list-header{
+    color: white;
+    position: absolute;
+    right: 20px;
+    display: inline-block;
+    
+}
+
+.list-header li{
+    display: inline;
+    padding-left:3px;
+    padding-right:3px;
+    position: relative;
+    top: 30px;
+}
+
+.display-inline-block, .list{
+    display: inline-block;
+}
+
+h1{
+    position: relative;
+    bottom: 30px;
+    font-size: 25px;
+}
+
+.anuncio{
+    background-image: url('./img/anuncio.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 2%;
+    display: inline-block;
+    padding: 30px;
+    margin-top: 30px;
+    height: 400px;
+    width: 560px;
+    color: red;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.span-anuncio{
+    color: white;
+}
+
+.podio{
+    background-color: white;
+    border-radius: 2%;
+    border: 1px rgba(0, 0, 0, 0.1)  solid;
+    display: inline-block;
+    position: absolute;
+    padding: 30px;
+    margin-top: 30px;
+    height: 400px;
+    width: 560px;
+    margin-left: 50px;
+}
+
+.header-podio{
+    color: red;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.p-podio{
+    position: relative;
+    left: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.list-podio{
+    padding: 20px;
+    position: relative;
+    left: 20px;
+    font-weight: bold;
+}
+
+.container{
+    padding-left: 100px;
+}
+
+.li-list-podio{
+    padding: 5px;
+}
+
+footer{
+    background-color: #222222;
+    padding-top: 10px;  
+    margin-top: 30px;
+     
+}
+
+.list-footer{
+    color: white;
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.li-list-footer{
+    padding: 5px;
+}
+
+.logo-footer{
+    display: inline-block;
+    position: absolute;
+    right: 150px;
+    padding-top: 20px;
+}
+
+.p-footer{
+    position: relative;
+    left: 110px;
+    bottom: 55px;
+    font-size: 20px;
+}
