@@ -104,6 +104,12 @@ h1{
     font-weight: bold;
 }
 
+.pizza-falling{
+    position: relative;
+    bottom: 160px;
+    left: 270px;
+}
+
 .container{
     padding-left: 100px;
 }
